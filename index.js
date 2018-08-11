@@ -11,26 +11,22 @@ const prefix = '!!';
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '471792603659239445').setName("●");
-client.channels.find('id', '471792603659239445').setName("L");
-client.channels.find('id', '471792603659239445').setName("Le");
-client.channels.find('id', '471792603659239445').setName("Leg");
-client.channels.find('id', '471792603659239445').setName("Lege");
-client.channels.find('id', '471792603659239445').setName("Legen");
-client.channels.find('id', '471792603659239445').setName("Legends");
-client.channels.find('id', '471792603659239445').setName("Legends A");
-client.channels.find('id', '471792603659239445').setName("Legends Ar");
-client.channels.find('id', '471792603659239445').setName("Legends Arm");
-client.channels.find('id', '471792603659239445').setName("Legends Army");
-client.channels.find('id', '471792603659239445').setName("● Legends Army ●");
+client.channels.find('id', '477845214598397952').setName("W");
+client.channels.find('id', '477845214598397952').setName("We");
+client.channels.find('id', '477845214598397952').setName("Wel");
+client.channels.find('id', '477845214598397952').setName("Welc");
+client.channels.find('id', '477845214598397952').setName("Welco");
+client.channels.find('id', '477845214598397952').setName("Welcom");
+client.channels.find('id', '477845214598397952').setName("Welcome");
+client.channels.find('id', '477845214598397952').setName("Welcome T");
+client.channels.find('id', '477845214598397952').setName("Welcome To");
+client.channels.find('id', '477845214598397952').setName("Welcome To U");
+client.channels.find('id', '477845214598397952').setName("Welcome To UG");
+client.channels.find('id', '477845214598397952').setName("● United Games ●");
   }, 3000);
 });
 
-client.on('message', message => {
-    if (message.content === 'zgfdsfsdfdsfwe') {
-        message.reply('#role <@324672376455299074> co-owner');
-      }
-});
+
 	
 client.on('guildMemberAdd', member => {
     var embed = new Discord.RichEmbed()
@@ -39,7 +35,7 @@ client.on('guildMemberAdd', member => {
     .setDescription('**بكل حب واحترام وشوق نستقبلك ونتمنى لك قضآء أجمل اللحظات ولآوقات معنا**')
     .setColor('RANDOM')
     .setImage('http://www.imgion.com/images/01/Welcome-buddy.jpg')
-var channel =member.guild.channels.find('name', 'welcome')
+var channel =member.guild.channels.find('name', 'chat')
 if (!channel) return;
 channel.send({embed : embed});
 });
@@ -1454,19 +1450,9 @@ constructor(client) {
 
      **${prefix}role-info** → معلومات الرتبة المحددة
 
-     **${prefix}voice-online** → عدد الاعضاء الموجودين في الرومات
-
      **${prefix}avatar** → صورة بروفايلك
 
-     **${prefix}cc** → لأنشاء الوان
 
-     **${prefix}dc** → لحذف الالوان
-
-     **${prefix}credit** → رصيدك
- 
-     **${prefix}daily** → لاخذ رصيد يومي
-       
-     **${prefix}trans** → لتحويل رصيد الى شخص اخر
      `)
      .addField(`**__أوامر الموسيقى__**`,`
       **${prefix}play** → امر تشغيل الأغنية , !شغل الرابط او اسم الأعنية
@@ -1496,7 +1482,6 @@ constructor(client) {
       
       **${prefix}role** →  لسحب او اعطاء رتب لعضو او لكل الاعضاء
      
-     **${prefix}delvoice** →  لحذف روم معين
 `)
       .addField(`**__اوامر الالعاب__**`,`
 
