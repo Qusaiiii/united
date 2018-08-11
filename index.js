@@ -11,18 +11,18 @@ const prefix = '!!';
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '477845214598397952').setName("W");
-client.channels.find('id', '477845214598397952').setName("We");
-client.channels.find('id', '477845214598397952').setName("Wel");
-client.channels.find('id', '477845214598397952').setName("Welc");
-client.channels.find('id', '477845214598397952').setName("Welco");
-client.channels.find('id', '477845214598397952').setName("Welcom");
-client.channels.find('id', '477845214598397952').setName("Welcome");
-client.channels.find('id', '477845214598397952').setName("Welcome T");
-client.channels.find('id', '477845214598397952').setName("Welcome To");
-client.channels.find('id', '477845214598397952').setName("Welcome To U");
-client.channels.find('id', '477845214598397952').setName("Welcome To UG");
-client.channels.find('id', '477845214598397952').setName("● United Games ●");
+client.channels.find('id', '477880030274387970').setName("W");
+client.channels.find('id', '477880030274387970').setName("We");
+client.channels.find('id', '477880030274387970').setName("Wel");
+client.channels.find('id', '477880030274387970').setName("Welc");
+client.channels.find('id', '477880030274387970').setName("Welco");
+client.channels.find('id', '477880030274387970').setName("Welcom");
+client.channels.find('id', '477880030274387970').setName("Welcome");
+client.channels.find('id', '477880030274387970').setName("Welcome T");
+client.channels.find('id', '477880030274387970').setName("Welcome To");
+client.channels.find('id', '477880030274387970').setName("Welcome To U");
+client.channels.find('id', '477880030274387970').setName("Welcome To UG");
+client.channels.find('id', '477880030274387970').setName("● United Games ●");
   }, 3000);
 });
 
